@@ -28,12 +28,13 @@ fields()
     ]
 }
 ```
+![nova-grouped-field-1](https://user-images.githubusercontent.com/29180903/48378053-9c387600-e69d-11e8-9faa-dece657fa1ba.png)
 
 # Options
 
 There are a few chainable options available
 
-### ->seperator($value)
+### seperator($value)
 
 If you would like to override the default slash seperator
 
@@ -43,9 +44,9 @@ Grouped::make('User')->fields([
     BelongsTo::make('User'),
 ])->seperator('-')
 ```
-User | Acount Name - User Name
+![nova-grouped-field-seperator](https://user-images.githubusercontent.com/29180903/48378215-2a146100-e69e-11e8-90c8-269cf42b1b65.png)
 
-### ->showLabels()
+### showLabels()
 
 If you want to output the original labels inline with the values
 
@@ -55,10 +56,9 @@ Grouped::make('User')->fields([
     BelongsTo::make('User'),
 ])->withLabels()
 ```
+![nova-grouped-field-labels](https://user-images.githubusercontent.com/29180903/48378354-5cbe5980-e69e-11e8-8e10-28187f473c5b.png)
 
-User | Account: Acount Name - User: User Name
-
-### ->removeLinks()
+### removeLinks()
 
 If you just want plain text output for relationships
 
@@ -68,10 +68,14 @@ Grouped::make('User')->fields([
     BelongsTo::make('User'),
 ])->removeLinks()
 ```
+![nova-grouped-field-no-links](https://user-images.githubusercontent.com/29180903/48378417-7fe90900-e69e-11e8-8b8a-5e0a5ac2a431.png)
 
 ### Native options
 
 `Grouped` is a nova field like any other.
+
 You can use authorization like `->canSee()`
+
 You can decide when to show like `->hideFromIndex()`
+
 You can even override using `displayUsing()`
