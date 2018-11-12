@@ -54,7 +54,7 @@ If you want to output the original labels inline with the values
 Grouped::make('User')->fields([
     BelongsTo::make('Account'),
     BelongsTo::make('User'),
-])->withLabels()
+])->showLabels()
 ```
 ![nova-grouped-field-labels](https://user-images.githubusercontent.com/29180903/48378354-5cbe5980-e69e-11e8-8e10-28187f473c5b.png)
 
