@@ -1,8 +1,12 @@
 # Nova Grouped Field
 
+[![Latest Version on Github](https://img.shields.io/github/release/dillingham/nova-grouped-field.svg?style=flat-square)](https://packagist.org/packages/dillingham/nova-grouped-field)
 [![Total Downloads](https://img.shields.io/packagist/dt/dillingham/nova-grouped-field.svg?style=flat-square)](https://packagist.org/packages/dillingham/nova-grouped-field)
 
+
 This Nova field provides a clean way to combine multiple fields into one output.
+
+![nova-grouped-field-1](https://user-images.githubusercontent.com/29180903/48378053-9c387600-e69d-11e8-9faa-dece657fa1ba.png)
 
 # Installation
 
@@ -18,7 +22,7 @@ composer require dillingham/nova-grouped-field
 use Dillingham\NovaGroupedField\Grouped;
 ```
 ```php
-fields()
+public function fields(Request $request)
 {
     return [
         Grouped::make('User')->fields([
@@ -28,7 +32,8 @@ fields()
     ]
 }
 ```
-![nova-grouped-field-1](https://user-images.githubusercontent.com/29180903/48378053-9c387600-e69d-11e8-9faa-dece657fa1ba.png)
+
+---
 
 # Options
 
