@@ -1,7 +1,6 @@
 {
     "name": "dillingham/nova-grouped-field",
-    "description": "A Laravel Nova field.",
-    "version": "0.1",
+    "description": "Combine Nova fields into one output",
     "keywords": [
         "laravel",
         "nova"
