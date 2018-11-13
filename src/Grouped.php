@@ -14,7 +14,11 @@ class Grouped extends Field
     
     public $component = 'nova-grouped-field';
 
-    public function resolve($resource, $attribute = null)
+    public $showOnCreation = false;
+    
+    public $showOnUpdate = false;
+
+    public function resolveForDisplay($resource, $attribute = null)
     {
         parent::resolve($resource, $attribute);
 
