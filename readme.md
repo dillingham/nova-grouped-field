@@ -70,6 +70,7 @@ Grouped::make('User')->fields([
     BelongsTo::make('User'),
 ])->removeLinks()
 ```
+### Screenshots
 
 | seperator('-') | showLabels() | removeLinks() |
 | - | - | -
@@ -82,5 +83,3 @@ Grouped::make('User')->fields([
 You can use authorization like `->canSee()`
 
 You can decide when to show like `->hideFromIndex()`
-
-You can even override using `displayUsing()`
