@@ -25,7 +25,7 @@
                         {{ childField.value }}
                     </span>
                     <span v-if="index != field.fields.length - 1">
-                        {{ field.seperator }} 
+                        {{ field.separator }} 
                     </span>
                 </span>
             </p>

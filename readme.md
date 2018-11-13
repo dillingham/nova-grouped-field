@@ -39,15 +39,15 @@ public function fields(Request $request)
 
 There are a few chainable options available
 
-### seperator($value)
+### separator($value)
 
-If you would like to override the default slash seperator
+If you would like to override the default slash separator
 
 ```php
 Grouped::make('User')->fields([
     BelongsTo::make('Account'),
     BelongsTo::make('User'),
-])->seperator('-')
+])->separator('-')
 ```
 
 ### showLabels()
@@ -72,9 +72,9 @@ Grouped::make('User')->fields([
 ```
 ### Screenshots
 
-| seperator('-') | showLabels() | removeLinks() |
+| separator('-') | showLabels() | removeLinks() |
 | - | - | -
-![nova-grouped-field-seperator](https://user-images.githubusercontent.com/29180903/48378215-2a146100-e69e-11e8-90c8-269cf42b1b65.png) | ![nova-grouped-field-labels](https://user-images.githubusercontent.com/29180903/48378354-5cbe5980-e69e-11e8-8e10-28187f473c5b.png) | ![nova-grouped-field-no-links](https://user-images.githubusercontent.com/29180903/48378417-7fe90900-e69e-11e8-8b8a-5e0a5ac2a431.png) 
+![nova-grouped-field-separator](https://user-images.githubusercontent.com/29180903/48378215-2a146100-e69e-11e8-90c8-269cf42b1b65.png) | ![nova-grouped-field-labels](https://user-images.githubusercontent.com/29180903/48378354-5cbe5980-e69e-11e8-8e10-28187f473c5b.png) | ![nova-grouped-field-no-links](https://user-images.githubusercontent.com/29180903/48378417-7fe90900-e69e-11e8-8b8a-5e0a5ac2a431.png) 
 
 ### Native options
 

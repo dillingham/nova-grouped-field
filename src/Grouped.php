@@ -6,7 +6,7 @@ use Laravel\Nova\Fields\Field;
 
 class Grouped extends Field
 {
-    public $seperator = ' / ';
+    public $separator = ' / ';
     
     public $showLabels = false;
     
@@ -26,7 +26,7 @@ class Grouped extends Field
         
         $this->withMeta([
             'fields' => $this->fields,
-            'seperator' => $this->seperator,
+            'separator' => $this->separator,
             'showLabels' => $this->showLabels,
             'removeLinks' => $this->removeLinks,
         ]);
@@ -39,9 +39,9 @@ class Grouped extends Field
         return $this;
     }
 
-    public function seperator($seperator)
+    public function separator($separator)
     {
-        $this->seperator = $seperator;
+        $this->separator = $separator;
 
         return $this;
     }
