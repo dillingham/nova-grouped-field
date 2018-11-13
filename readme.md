@@ -49,7 +49,6 @@ Grouped::make('User')->fields([
     BelongsTo::make('User'),
 ])->seperator('-')
 ```
-![nova-grouped-field-seperator](https://user-images.githubusercontent.com/29180903/48378215-2a146100-e69e-11e8-90c8-269cf42b1b65.png)
 
 ### showLabels()
 
@@ -61,8 +60,6 @@ Grouped::make('User')->fields([
     BelongsTo::make('User'),
 ])->showLabels()
 ```
-![nova-grouped-field-labels](https://user-images.githubusercontent.com/29180903/48378354-5cbe5980-e69e-11e8-8e10-28187f473c5b.png)
-
 ### removeLinks()
 
 If you just want plain text output for relationships
@@ -73,7 +70,10 @@ Grouped::make('User')->fields([
     BelongsTo::make('User'),
 ])->removeLinks()
 ```
-![nova-grouped-field-no-links](https://user-images.githubusercontent.com/29180903/48378417-7fe90900-e69e-11e8-8b8a-5e0a5ac2a431.png)
+
+| seperator('-') | showLabels() | removeLinks() |
+| - | - | -
+![nova-grouped-field-seperator](https://user-images.githubusercontent.com/29180903/48378215-2a146100-e69e-11e8-90c8-269cf42b1b65.png) | ![nova-grouped-field-labels](https://user-images.githubusercontent.com/29180903/48378354-5cbe5980-e69e-11e8-8e10-28187f473c5b.png) | ![nova-grouped-field-no-links](https://user-images.githubusercontent.com/29180903/48378417-7fe90900-e69e-11e8-8b8a-5e0a5ac2a431.png) 
 
 ### Native options
 
