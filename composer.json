@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "NovaGroupedField\\": "src/"
+            "Dillingham\\NovaGroupedField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "NovaGroupedField\\FieldServiceProvider"
+                "Dillingham\\NovaGroupedField\\FieldServiceProvider"
             ]
         }
     },

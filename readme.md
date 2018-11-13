@@ -15,7 +15,7 @@ composer require dillingham/nova-grouped-field
 # Usage
 
 ```php
-use NovaGroupedField\Grouped;
+use Dillingham\NovaGroupedField\Grouped;
 ```
 ```php
 fields()

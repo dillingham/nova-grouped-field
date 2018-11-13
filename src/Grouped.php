@@ -1,6 +1,6 @@
 <?php
 
-namespace NovaGroupedField;
+namespace Dillingham\NovaGroupedField;
 
 use Laravel\Nova\Fields\Field;
 
