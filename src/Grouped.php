@@ -18,8 +18,10 @@ class Grouped extends Field
     
     public $showOnUpdate = false;
 
-    public function __construct()
+    public function __construct($name, $attribute = null, $resolveCallback = null)
     {
+        parent::__construct($name, $attribute = null, $resolveCallback = null);
+
         $this->exceptOnForms();
     }
 
