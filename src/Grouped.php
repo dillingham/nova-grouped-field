@@ -18,6 +18,11 @@ class Grouped extends Field
     
     public $showOnUpdate = false;
 
+    public function __construct()
+    {
+        $this->exceptOnForms();
+    }
+
     public function resolveForDisplay($resource, $attribute = null)
     {
         parent::resolve($resource, $attribute);
