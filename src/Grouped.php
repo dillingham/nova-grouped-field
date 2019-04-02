@@ -29,7 +29,7 @@ class Grouped extends Field
     {
         parent::resolve($resource, $attribute);
 
-        $this->fields->each->resolveForDisplay($resource);
+        $this->fields->each->resolve($resource);
         
         $this->withMeta([
             'fields' => $this->fields,
