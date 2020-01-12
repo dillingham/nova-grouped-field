@@ -16,9 +16,7 @@
                 <span v-if="field.showLabels">{{ childField.name }}: </span>
                 {{ childField.value }}
             </span>
-            <span v-if="index + 1 != field.fields.length">
-                {{ field.separator }} 
-            </span>
+            <span v-if="index + 1 != field.fields.length" v-html="field.separator"/>
         </span>
     </div>
 </template>
