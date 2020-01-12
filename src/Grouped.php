@@ -7,21 +7,21 @@ use Laravel\Nova\Fields\Field;
 class Grouped extends Field
 {
     public $separator = ' / ';
-    
+
     public $showLabels = false;
-    
+
     public $removeLinks = false;
-    
+
     public $component = 'nova-grouped-field';
 
     public $showOnCreation = false;
-    
+
     public $showOnUpdate = false;
 
     public function __construct($name)
     {
         $this->name = $name;
-        
+
         $this->exceptOnForms();
     }
 
@@ -30,11 +30,11 @@ class Grouped extends Field
         parent::resolve($resource, $attribute);
 
         $this->fields->each->resolve($resource);
-        
+
         $this->withMeta([
-            'fields' => $this->fields,
-            'separator' => $this->separator,
-            'showLabels' => $this->showLabels,
+            'fields'      => $this->fields,
+            'separator'   => $this->separator,
+            'showLabels'  => $this->showLabels,
             'removeLinks' => $this->removeLinks,
         ]);
     }
