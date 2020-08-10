@@ -89,7 +89,7 @@ You can decide when to show like `->hideFromIndex()`
 
 # Author
 
-Hi 👋, Im Brian D. I created this Nova package [and others](https://novapackages.com/collaborators/dillingham)
+Hi 👋, Im Brian Dillingham, creator of this Nova package [and others](https://novapackages.com/collaborators/dillingham)
 
 Hope you find it useful. Feel free to reach out with feedback.
 
