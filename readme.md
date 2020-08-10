@@ -94,4 +94,3 @@ Hi 👋, Im Brian D. I created this Nova package [and others](https://novapackag
 Hope you find it useful. Feel free to reach out with feedback.
 
 Follow me on twitter: [@im_brian_d](https://twitter.com/im_brian_d) 
-Grouped::make('User')->fields([
