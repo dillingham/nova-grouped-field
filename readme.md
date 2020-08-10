@@ -1,7 +1,7 @@
 # Nova Grouped Field
 
 [![Latest Version on Github](https://img.shields.io/github/release/dillingham/nova-grouped-field.svg?style=flat-square)](https://packagist.org/packages/dillingham/nova-grouped-field)
-[![Total Downloads](https://img.shields.io/packagist/dt/dillingham/nova-grouped-field.svg?style=flat-square)](https://packagist.org/packages/dillingham/nova-grouped-field) [![Twitter Follow](https://img.shields.io/twitter/follow/dillinghammm?color=%231da1f1&label=Twitter&logo=%231da1f1&logoColor=%231da1f1&style=flat-square)](https://twitter.com/dillinghammm)
+[![Total Downloads](https://img.shields.io/packagist/dt/dillingham/nova-grouped-field.svg?style=flat-square)](https://packagist.org/packages/dillingham/nova-grouped-field) [![Twitter Follow](https://img.shields.io/twitter/follow/dillinghammm?color=%231da1f1&label=Twitter&logo=%231da1f1&logoColor=%231da1f1&style=flat-square)](https://twitter.com/im_brian_d)
 
 
 This Nova field provides a clean way to combine multiple fields into one output.
@@ -83,3 +83,15 @@ Grouped::make('User')->fields([
 You can use authorization like `->canSee()`
 
 You can decide when to show like `->hideFromIndex()`
+
+
+---
+
+# Author
+
+Hi 👋, Im Brian D. I created this Nova package [and others](https://novapackages.com/collaborators/dillingham)
+
+Hope you find it useful. Feel free to reach out with feedback.
+
+Follow me on twitter: [@im_brian_d](https://twitter.com/im_brian_d) 
+Grouped::make('User')->fields([
